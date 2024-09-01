@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Customer Registration</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Register as a Customer</h2>
+            <form id="customerForm" action="home.html" method="post">
+                <label for="customerName">Name:</label>
+                <input type="text" id="customerName" name="customerName" required>
+
+                <label for="customerEmail">Email:</label>
+                <input type="email" id="customerEmail" name="customerEmail" required>
+
+                <label for="customerPassword">Password:</label>
+                <input type="password" id="customerPassword" name="customerPassword" required>
+
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="index.html">Login here</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Farm Market</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
